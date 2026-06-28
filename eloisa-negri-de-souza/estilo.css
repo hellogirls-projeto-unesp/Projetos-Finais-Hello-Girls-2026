@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    background-color: #FFF8DC;
+    color: rgb(2, 20, 22);
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #05241b, #66bb6a); 
+    color: rgb(0, 26, 8);
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+nav {
+    background-color: #66BB6A;
+    text-align: center;
+    padding: 15px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration:none;
+    margin: 0 12px;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    background-color: #66bb6a;
+    color: white;
+}
+
+section {
+    background:#CDDEDE;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.1);
+    max-width: 1100px;
+}
+
+h2 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+    border-left: 6px solid #66bb6a;
+    padding-left: 12px;
+    font-size: 1.8rem;
+}
+
+h3 {
+    color: #2e7d32;
+    margin-bottom: 8px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* BICHINHOS */
+.animal {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+    background: #fafafa;
+    transition: transform 0.3s;
+}
+
+.animal:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.animal img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    
+
+}
+ 
+
