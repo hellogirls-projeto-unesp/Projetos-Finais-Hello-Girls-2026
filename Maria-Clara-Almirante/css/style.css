@@ -1,0 +1,89 @@
+/* ===== FUNDO ===== */
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background: linear-gradient(#fff8f2, #ffffff);
+  text-align: center;
+}
+
+/* ===== TOPO ===== */
+#topo {
+  background-color: #f8c8dc;
+  padding: 50px 20px;
+}
+
+/* ===== SEÇÕES ===== */
+.secao {
+  padding: 40px 20px;
+}
+
+/* ===== TÍTULOS ===== */
+h1 {
+  color: #4f6f52;
+  font-size: 34px;
+}
+
+h2 {
+  color: #7c3aed;
+}
+
+/* ===== LINKS ===== */
+a {
+  text-decoration: none;
+}
+
+/* ===== GRID ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+/* ===== CARD ===== */
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+  transition: 0.3s;
+}
+
+/* HOVER NOS CARDS */
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* ===== IMAGEM DOS CARDS ===== */
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* ===== BOTÃO ===== */
+.botao {
+  display: inline-block;
+  background: #7c3aed;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-top: 10px;
+
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* HOVER BOTÃO */
+.botao:hover {
+  background: #4f6f52;
+  transform: scale(1.05);
+}
+
+/* ===== IMAGEM GRANDE ===== */
+.imagem {
+  width: 90%;
+  max-width: 400px;
+  border-radius: 10px;
+}
